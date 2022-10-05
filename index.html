@@ -40,8 +40,6 @@
 		document.getElementById('btnn').style.visibility = 'hidden';
 	</script>
 	<script>
-			setInterval(function(){
-			
 			document.getElementById("btnn").click();	
 			// var url_string =window.location.href; 
 			// var url = new URL(url_string);
@@ -49,8 +47,6 @@
 			// console.log(c);
 			let params = (new URL(document.location)).searchParams;
 			window.value= params.get("uid");
-			
-			}, 1000);
 			 
 	</script>
 	<!-- Configure a few settings and attach camera -->
